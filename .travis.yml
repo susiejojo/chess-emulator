@@ -1,6 +1,4 @@
 language: python
-before_install:
-  - pip install pygame
 python:
   - "2.7"
   - "3.3"
