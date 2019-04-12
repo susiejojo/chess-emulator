@@ -5,10 +5,9 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-install:
-  - pip install -r requirements.txt
+install: true
 virtualenv:
   system_site_packages: true
 # command to run tests
 script:
-  - pytest
+  - python chess_emulator.py
